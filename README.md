@@ -142,9 +142,9 @@ NB : If a given parameter in the command-line is invalid, he will be ignored (ie
 CONTACT :
 ---------
 
-* You can contact me at mrnozalia[at]gmail[dot]com if you want to share any improvements or ideas about the program.
+* You can contact me at krowten11[at]gmail[dot]com if you want to share any improvements or ideas about the program.
 
-* Check out the github repo of the project : https://github.com/Nozalia/PICMP
+* Check out the github repo of the project : https://github.com/Krowten11/PICMP
 
 THANKS :
 --------
