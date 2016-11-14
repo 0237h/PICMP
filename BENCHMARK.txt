@@ -1,0 +1,87 @@
+Hardware : Intel Core i5-4690 3.5Ghz @ Quad core / 8Go RAM DDR3
+
+255 hosts scan :
+----------------
+
+== Order by reliability (from + to -) ==
+
+126s -> 6 / 6 live hosts | -t=150   -c=4
+94s  -> 6 / 6 live hosts | -t=100   -c=4
+62s  -> 5 / 6 live hosts | -t=75    -c=4
+48s  -> 3 / 6 live hosts | -t=50    -c=4
+
+85s  -> 6 / 6 live hosts | -t=150   -c=3
+63s  -> 6 / 6 live hosts | -t=100   -c=3
+42s  -> 5 / 6 live hosts | -t=75    -c=3
+33s  -> 4 / 6 live hosts | -t=50    -c=3
+
+248s -> 6 / 6 live hosts | -t=500   -c=2
+64s  -> 5 / 6 live hosts | -t=200   -c=2
+45s  -> 4 / 6 live hosts | -t=150   -c=2
+34s  -> 4 / 6 live hosts | -t=100   -c=2
+23s  -> 5 / 6 live hosts | -t=75    -c=2
+19s  -> 3 / 6 live hosts | -t=50    -c=2
+
+107s -> 6 / 6 live hosts | -t=500   -c=1
+17s  -> 5 / 6 live hosts | -t=200   -c=1
+13s  -> 4 / 6 live hosts | -t=150   -c=1
+11s  -> 4 / 6 live hosts | -t=100   -c=1
+9s   -> 4 / 6 live hosts | -t=75    -c=1
+8s   -> 2 / 6 live hosts | -t=50    -c=1
+
+============ Order by time =============
+
+8s   -> 2 / 6 live hosts | -t=50    -c=1
+9s   -> 4 / 6 live hosts | -t=75    -c=1
+
+11s  -> 4 / 6 live hosts | -t=100   -c=1
+13s  -> 4 / 6 live hosts | -t=150   -c=1
+17s  -> 5 / 6 live hosts | -t=200   -c=1
+19s  -> 3 / 6 live hosts | -t=50    -c=2
+
+23s  -> 5 / 6 live hosts | -t=75    -c=2
+
+33s  -> 4 / 6 live hosts | -t=50    -c=3
+34s  -> 4 / 6 live hosts | -t=100   -c=2
+
+42s  -> 5 / 6 live hosts | -t=75    -c=3
+45s  -> 4 / 6 live hosts | -t=150   -c=2
+48s  -> 3 / 6 live hosts | -t=50    -c=4
+
+62s  -> 5 / 6 live hosts | -t=75    -c=4
+63s  -> 6 / 6 live hosts | -t=100   -c=3
+64s  -> 5 / 6 live hosts | -t=200   -c=2
+
+85s  -> 6 / 6 live hosts | -t=150   -c=3
+94s  -> 6 / 6 live hosts | -t=100   -c=4
+
+107s -> 6 / 6 live hosts | -t=500   -c=1
+126s -> 6 / 6 live hosts | -t=150   -c=4
+248s -> 6 / 6 live hosts | -t=500   -c=2
+
+========== Order by accuracy ===========
+
+63s  -> 6 / 6 live hosts | -t=100   -c=3
+85s  -> 6 / 6 live hosts | -t=150   -c=3
+94s  -> 6 / 6 live hosts | -t=100   -c=4
+107s -> 6 / 6 live hosts | -t=500   -c=1
+126s -> 6 / 6 live hosts | -t=150   -c=4
+248s -> 6 / 6 live hosts | -t=500   -c=2
+
+17s  -> 5 / 6 live hosts | -t=200   -c=1
+23s  -> 5 / 6 live hosts | -t=75    -c=2
+42s  -> 5 / 6 live hosts | -t=75    -c=3
+62s  -> 5 / 6 live hosts | -t=75    -c=4
+64s  -> 5 / 6 live hosts | -t=200   -c=2
+
+9s   -> 4 / 6 live hosts | -t=75    -c=1
+11s  -> 4 / 6 live hosts | -t=100   -c=1
+13s  -> 4 / 6 live hosts | -t=150   -c=1
+33s  -> 4 / 6 live hosts | -t=50    -c=3
+34s  -> 4 / 6 live hosts | -t=100   -c=2
+45s  -> 4 / 6 live hosts | -t=150   -c=2
+
+19s  -> 3 / 6 live hosts | -t=50    -c=2
+48s  -> 3 / 6 live hosts | -t=50    -c=4
+
+8s   -> 2 / 6 live hosts | -t=50    -c=1
