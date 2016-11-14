@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 INTRODUCTION :
 --------------
 
-* This software is a network scanner who uses the ICMP protocol (https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) to check for live hosts (also known as "ping scanning").
+* This software is a network scanner who uses the ICMP protocol (https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) to check for live hosts (also known as "ping scanning" or "ping sweep").
 
 * See *BENCHMARK.txt* for a performance overview of the program.
 
