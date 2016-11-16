@@ -122,10 +122,10 @@ OPTIONS :
 This will ping all hosts from *192.168.1.1* to *192.168.1.255* by sending them **3 packets** (who contains the message **"Just pinging you :D"**) and waiting **100 ms** for the target to respond. All the packets informations will be recorded into a **log file** whose file name is set by the program.
 
 ![picmp-run](http://image.noelshack.com/fichiers/2016/46/1479313379-picmp-screen.png "Running the program")
-<p align="center"><i>Running the program</i></p>
+<p align="center"><i>Running the program (click to enlarge the picture)</i></p>
 
 ![picmp-log](http://image.noelshack.com/fichiers/2016/46/1479312858-picmp-screen-2.png "Log file created by the program")
-<p align="center"><i>Log file created by the program</i></p>
+<p align="center"><i>Log file created by the program (click to enlarge the picture)</i></p>
 
 DEFAULT VALUES:
 ---------------
