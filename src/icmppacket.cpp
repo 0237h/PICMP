@@ -15,7 +15,15 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "icmppacket.h"
+#include "IcmpPacket.h"
+
+int pow(int a, int b){
+	int c = a;
+	for (; b > 1; --b)
+		c *= a;
+
+	return c;
+}
 
 IcmpPacket::IcmpPacket(){
 	header.type = ICMP_TYPE::ECHO_RQST;

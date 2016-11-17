@@ -24,13 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <array>
 #include <sstream>
 
-#include <cmath>
-#include <cctype>
-
 #define _WIN32_WINNT 0x0501
-
-#include <boost/asio.hpp>
-#include <boost/regex.hpp>
 
 //						      ICMP PACKET
 //						      -----------
