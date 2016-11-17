@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //						      ICMP PACKET
 //						      -----------
 //
-// 0               8               16                             31
+// 0               7               15                             31
 // +---------------+---------------+------------------------------+      ---
 // |               |               |                              |       ^
 // |     type      |     code      |          checksum            |       |

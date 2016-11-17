@@ -19,8 +19,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "iprange.h"
 #include "includes.h"
 
-#include <boost/bind.hpp>
-
 enum class VERBOSE_STREAM_DST {CONSOLE, FILE, BOTH, NONE};
 
 void printHello(){

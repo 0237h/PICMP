@@ -29,4 +29,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <cstdio>
 #include <cstring>
 
+#include <boost/asio.hpp>
+#include <boost/regex.hpp>
+#include <boost/bind.hpp>
+
 #endif
