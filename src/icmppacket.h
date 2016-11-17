@@ -34,7 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // |               |               |                              |       ^
 // |     type      |     code      |          checksum            |       |
 // |               |               |                              |       |
-// +---------------+---------------+------------------------------+    8 bytes
+// +---------------+---------------+------------------------------+    4 bytes
 // |                               |                              |       |
 // |          identifier           |       sequence number        |       |
 // |                               |                              |       v
