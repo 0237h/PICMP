@@ -9,7 +9,7 @@
 			888	       8888888     "Y8888P"      888       888     888
 </pre>
 
-	                 						Copyright (C) 2016 Krowten11
+	                 		   Copyright (C) 2016 Krowten11
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
