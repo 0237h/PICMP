@@ -9,7 +9,7 @@
 			888	       8888888     "Y8888P"      888       888     888
 </pre>
 
-	                 		   Copyright (C) 2016 Krowten11
+	                 		       Copyright (C) 2016 Krowten11
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -31,10 +31,10 @@ INTRODUCTION :
 * See *BENCHMARK.txt* for a performance overview of the program.
 
 * Compiled with GCC 4.8.1 and Boost Release 1.62.0 on Windows 7 (64-bits) using the following command line : 
-***g++ -Wall -std=c++11 -I"C:\Boost\boost_1_62_0" -L"C:\Boost\boost_1_62_0\lib" *.cpp -o picmp -lboost_regex-mgw48-1_62 -lboost_system-mgw48-1_62 -lboost_iostreams-mgw48-1_62 -lws2_32 -lwsock32***
+***g++ -Wall -std=c++11 -I"C:\Boost\boost_1_62_0" -L"C:\Boost\boost_1_62_0\lib" \*.cpp -o picmp -lboost_regex-mgw48-1_62 -lboost_system-mgw48-1_62 -lboost_iostreams-mgw48-1_62 -lws2_32 -lwsock32***
 
 * Compiled with GCC 5.4.0 and Boost Release 1.52.0 on Ubuntu (32-bits) using the following command line :
-***g++ -Wall -std=c++11 -I"/usr/include" -L"/usr/lib/i386-linux-gnu" *.cpp -lboost_system -lboost_regex -lboost_iostreams -o picmp***
+***g++ -Wall -std=c++11 -I"/usr/include" -L"/usr/lib/i386-linux-gnu" \*.cpp -lboost_system -lboost_regex -lboost_iostreams -o picmp***
 
 DOWNLOADING :
 -------------
@@ -49,14 +49,14 @@ Download the source files located in *src/* and follow the instructions :
 <h3>Linux</h3>
 - Install GCC and the Boost Library : ***sudo apt-get install gcc*** and ***sudo apt-get install libboost-all-dev***
 - Navigate to the folder where the source files are located using the ***cd*** command
-- Compile using ***g++ -std=c++11 -I"/usr/include" -L"/usr/lib" *.cpp -o picmp -lboost_system -lboost_regex -lboost_iostreams*** (NB : The include and/or lib directory may change depending if you're on 64 or 32 bits distribution. Use the following command to find where your Boost files are located ***find /usr/include /usr/lib/ -name *boost****)
+- Compile using ***g++ -std=c++11 -I"/usr/include" -L"/usr/lib" \*.cpp -o picmp -lboost_system -lboost_regex -lboost_iostreams*** (NB : The include and/or lib directory may change depending if you're on 64 or 32 bits distribution. Use the following command to find where your Boost files are located ***find /usr/include /usr/lib/ -name *boost****)
 
 <h3>Windows</h3>
 - Install MinGW (https://sourceforge.net/projects/mingw-w64/) and the Boost Library (https://sourceforge.net/projects/boost/files/boost/)
 - Add the path to *g++* executable (*C:/Mingw/bin*) to the PATH environnement variable (google it if you don't know who to do this)
 - Open a command prompt : *[Windows Key] + r* -> Type ***cmd*** and hit *Enter*
 - Navigate to the folder where the source files are located using the ***cd*** command
-- Compile using ***g++ -std=c++11 -I"$BOOST_INSTALL$" -L"$BOOST_INSTALL$\lib" *.cpp -o picmp -lboost_regex-mgw48-1_62 -lboost_system-mgw48-1_62 -lboost_iostreams-mgw48-1_62*** where *$BOOST_INSTALL$* is the path to the Boost Library root folder (if this command fail, try adding ***-lws2_32 -lwsock32*** at the end of the command)
+- Compile using ***g++ -std=c++11 -I"$BOOST_INSTALL$" -L"$BOOST_INSTALL$\lib" \*.cpp -o picmp -lboost_regex-mgw48-1_62 -lboost_system-mgw48-1_62 -lboost_iostreams-mgw48-1_62*** where *$BOOST_INSTALL$* is the path to the Boost Library root folder (if this command fail, try adding ***-lws2_32 -lwsock32*** at the end of the command)
 - Copy the *libboost_regex-mgw48-1_62.dll* and *libboost_system-mgw48-1_62.dll* located in *C:\$BOOST_INSTALL$\lib* to your application folder or download it from *lib/windows/*
 
 RUNNING :
